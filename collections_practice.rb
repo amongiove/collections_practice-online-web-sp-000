@@ -20,8 +20,7 @@ end
 
 def kesha_maker(array)
   new_array = []
-  new_array << array.each {|i| i[2] == "$"}
-  return new_array
+  array.map {|i| i[2] == "$"}
 end
 
 def find_a(array)
