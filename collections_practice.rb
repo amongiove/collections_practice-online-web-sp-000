@@ -33,7 +33,8 @@ def sum_array(array)
 end
 
 def add_s(array)
-  if i != 1
-    array.each_with_index{|i| i << "s"}
+    array.each_with_index so |i|
+    return i if i = 1
+    i << "s"
   end
 end
