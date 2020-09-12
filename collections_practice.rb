@@ -33,5 +33,6 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index{|i| for !i[1] do i << "s"}
+  array.each_with_index{|i| i << "s"}
+  for array[1].pop("s")
 end
