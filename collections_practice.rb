@@ -34,5 +34,4 @@ end
 
 def add_s(array)
   array.each_with_index{|i| i << "s"}
-  for array[1].pop("s")
 end
