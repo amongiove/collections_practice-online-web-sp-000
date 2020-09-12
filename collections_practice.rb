@@ -34,7 +34,7 @@ end
 
 def add_s(array)
     array.each_with_index so |i|
-    return i if i = 1
+    return i if array[1]
     i << "s"
   end
 end
